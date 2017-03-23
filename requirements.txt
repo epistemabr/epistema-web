@@ -7,4 +7,3 @@ lxml==3.7.3
 MarkupSafe==1.0
 psycopg2==2.6.2
 Werkzeug==0.12
-wxr-parser==0.1
