@@ -1,12 +1,12 @@
 # coding=utf-8
 
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask (__name__)
+app = Flask (__name__, static_folder='static/', static_url_path='')
 
 @app.route('/')
 def index():
-    return "Cocriar novos significados para a educação e para o trabalho na humanidade... É um grande desafio e precisaremos muito de sua ajuda!"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":
