@@ -6,7 +6,7 @@ app = Flask (__name__)
 
 @app.route('/')
 def index():
-    return "Vamos cocriar novos significados para a educação e o trabalho para a humanidade... É um grande desafio e precisaremos muito de sua ajuda!"
+    return "Cocriar novos significados para a educação e para o trabalho na humanidade... É um grande desafio e precisaremos muito de sua ajuda!"
 
 
 if __name__ == "__main__":
