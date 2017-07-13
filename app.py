@@ -6,7 +6,7 @@ app = Flask (__name__)
 
 @app.route('/')
 def index():
-    return "Para conectar os pontos entre o futuro da humanidade, a educação no presente e as práticas do passado. Em breve..."
+    return "Vamos construir uma ponte entre o significado da educação e significado do trabalho para a humanidade do futuro... É um grande desafio e precisaremos de sua ajuda."
 
 
 if __name__ == "__main__":
